@@ -3,3 +3,5 @@ pandas
 numpy
 plotly
 mlxtend
+matplotlib.pyplot
+mpl-toolkits.mplot3d

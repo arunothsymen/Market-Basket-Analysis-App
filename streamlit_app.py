@@ -151,7 +151,7 @@ def main():
         df = load_data(uploaded_file)
 
         dashboard_selectbox = st.sidebar.selectbox('Select Dashboard View:',
-                                                   ('Description', 'Frequent items', 'Seasonal Shopping', 'About', 'Data Insights'))
+                                                   ('Description', 'Frequent items', 'Seasonal Shopping', 'Data Insights', 'About'))
 
         # Main content
         if dashboard_selectbox == 'Description':

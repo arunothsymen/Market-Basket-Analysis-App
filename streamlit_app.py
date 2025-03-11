@@ -6,8 +6,7 @@ from mlxtend.frequent_patterns import apriori
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# Function to load data and cache it
-st.cache(allow_output_mutation=True)
+@st.cache_data
 def load_data(file):
     df = pd.read_csv(file)
     return df
